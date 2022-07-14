@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="icon" href="../Pirma užduotis/images/Tab icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Registration from</title>
+
+</head>
+
+<body>
+  <main id="container">
+    <div id="logo">
+      <img src="./images/logo.png" alt="logo" width="60px" height="60px">
+      <p id="logotext" style="display: inline-block;">ZEMR</p>
+      <p style="margin-left: 12px;font-weight:bold ;">5k Registration</p>
+    </div>
+    <div id="info">
+      <p class="topline">Name*</p>
+      <div class="name">
+        <div>
+          <div class="input">
+            <input type="text" style="width: 155px;">
+          </div>
+          <p class="underline"> First name</p>
+        </div>
+        <div style="margin-left:15px">
+          <div class="input">
+            <input type="text" style="width: 155px;">
+          </div>
+          <p class="underline"> First name</p>
+        </div>
+      </div>
+    </div>
+    <div class="email">
+      <p class="topline">Email address*</p>
+      <div class="input">
+        <input type="text" style="width: 330px;">
+      </div>
+    </div>
+    <div class="date">
+      <p class="topline">Date of Birth*</p>
+    </div>
+    <div class="dateinput" style="display:inline-block;">
+      <select name="year" id="date" style="width: 50px;">
+        <option value="0"></option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+      </select>
+      <select name="month" id="date" style="margin-left: 10px;width: 50px;">
+        <option value="0"></option>
+        <option value="jan">Jan</option>
+        <option value="feb">Feb</option>
+        <option value="mar">Mar</option>
+      </select>
+      <select name="day" id="date" style="margin-left: 10px;width: 50px;">
+        <option value="0"></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="2">3</option>
+      </select>
+      <i style="font-size:15px; margin-top: 5px;margin-left: 3px;" class="fa">&#xf073;</i>
+    </div>
+    <div class="phone">
+      <p class="topline">Phone number*</p>
+      <div class="input">
+        <input type="text" style="width: 330px;">
+      </div>
+    </div>
+    <div class="walking">
+      <p class="topline"> Will you be running or walking?</p>
+      <select class="select" name="run" id="run" style="width: 330px; color:rgb(158, 158, 158)">
+        <option value="0" selected disabled hidden>Choose one</option>
+        <option style="color:black" value="running">running</option>
+        <option style="color:black" value="walking">walking</option>
+      </select>
+      <div id="button">
+        <button type="submit">Continue</button>
+      </div>
+    </div>
+    </div>
+  </main>
+</body>
+</html>
